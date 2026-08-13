@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Jua', sans-serif;
+      background: #f5f6fa;
+      color: #2f3542;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 640px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #70a1ff, #1e90ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      color: white;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 0 0 4px;
+      font-size: 28px;
+    }
+
+    .role {
+      text-align: center;
+      color: #57606f;
+      margin-bottom: 32px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 18px;
+      border-left: 4px solid #1e90ff;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background: #eaf1ff;
+      color: #1e90ff;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👩‍💻</div>
+    <h1>Ellie Park</h1>
+    <div class="role">Junior Developer / 코드아카데미 수강생</div>
+
+    <section>
+      <h2>소개</h2>
+      <p>안녕하세요! 코드아카데미에서 프론트엔드 개발을 공부하고 있는 개발자입니다. 작은 프로젝트들을 만들면서 실력을 쌓아가고 있어요.</p>
+    </section>
+
+    <section>
+      <h2>기술 스택</h2>
+      <div class="tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">n8n</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>프로젝트</h2>
+      <ul>
+        <li><a href="./index.html">할 일 관리 앱</a> — 카테고리 자동 분류 기능이 있는 todo 앱</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>연락처</h2>
+      <p><a href="mailto:mar3027@bloomplex.com">mar3027@bloomplex.com</a></p>
+    </section>
+  </div>
+</body>
+</html>
